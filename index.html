@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/home.css">
+        <!-- FONT AWESOME -->
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Home</title>
+</head>
+
+<body>
+    <section class="container">
+        <header class="header-home">
+            <div class="logo">
+                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="0.832275" width="19.8758" height="19.8758" rx="9.93789" fill="#9C69E2" />
+                </svg>
+
+                <svg style='padding-left: .5rem;' width="21" height="36" viewBox="0 0 21 36" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.820312" y="0.925446" width="19.8758" height="34.7826" rx="9.93789" fill="#F063B8" />
+                </svg>
+            </div>
+            <div>
+                <a id="profile" href="profile.html" style='text-decoration: none;'>
+                    <button class=" btn">Profile</button>
+                </a>
+                <a id="log-out" style="padding-left: 2rem;" onclick="logOut()">
+                    <button class=" btn">Log out</button>
+                </a>
+            </div>
+            <a id="sign-in" href="signin.html">
+                <button class=" btn">Sign In</button>
+            </a>
+        </header>
+        <main>
+            <section class="banner">
+                <div class="banner-content">
+                    <div class="heading1">Save your data storage here.</div>
+                    <p class="description">
+                        Data Warehouse is a data storage area that has been tested for
+                        security, so you can store your data here safely but not be afraid
+                        of being stolen by others.
+                    </p>
+                    <button class="learn-more btn">Learn more</button>
+                </div>
+                <div class="banner-image">
+                    <img class="img-responsive" src='./images/img-banner.png' alt="" />
+                </div>
+            </section>
+            <section class="feature">
+                <div class="feature-heading">
+                    <h3 class="heading2">Features</h3>
+                    <p class="description">
+                        Some of the features and advantages that we provide for those of
+                        you who store data in this Data Warehouse.
+                    </p>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-content-item">
+                        <div class="feature-content-image">
+                            <img src='./images/img-feature1.png' alt="" />
+                        </div>
+                        <div class="feature-content_content">
+                            <div>
+                                <div class="feature-content_heading">Search Data</div>
+                                <div class="feature-content_description">
+                                    Don’t worry if your data is very large, the Data Warehoue
+                                    provides a search engine, which is useful for making it easier
+                                    to find data effectively saving time.
+                                </div>
+                            </div>
+                            <div class="feature-content_learn-more">
+                                <span class="text">Learn more </span>
+                                <span>
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-item">
+                        <div class="feature-content-image">
+                            <img src='./images/img-feature2.png' alt="" />
+                        </div>
+                        <div class="feature-content_content">
+                            <div>
+                                <div class="feature-content_heading">24 Hours Access</div>
+                                <div class="feature-content_description">
+
+                                    Access is given 24 hours a full morning to night and meet
+                                    again in the morning, giving you comfort when you need data
+                                    when urgent.
+                                </div>
+                            </div>
+                            <div class="feature-content_learn-more">
+                                <span class="text">Learn more </span>
+
+                                <span>
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-item">
+                        <div class="feature-content-image">
+                            <img src='./images/img-feature3.png' alt="" />
+                        </div>
+                        <div class="feature-content_content">
+                            <div>
+                                <div class="feature-content_heading">Print Out</div>
+                                <div class="feature-content_description">
+                                    Print out service gives you convenience if someday you need
+                                    print data, just edit it all and just print it.
+                                </div>
+                            </div>
+                            <div class="feature-content_learn-more">
+                                <span class="text">Learn more </span>
+                                <span>
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-item">
+                        <div class="feature-content-image">
+                            <img src='./images/img-feature4.png' alt="" />
+                        </div>
+                        <div class="feature-content_content">
+                            <div>
+                                <div class="feature-content_heading">Security Code</div>
+                                <div class="feature-content_description">
+                                    Data Security is one of our best facilities. Allows for your
+                                    files to be safer. The file can be secured with a code or
+                                    password that you created, so only you can open the file.
+                                </div>
+                            </div>
+                            <div class="feature-content_learn-more">
+                                <span class="text">Learn more </span>
+                                <span>
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div>
+                    <div class="slider-heading">
+                        <h3 class="heading2">Testimonials</h3>
+                    </div>
+
+                    <div class="slider-show">
+                        <button onclick="plusSlides(-1)" aria-label="prev" class="carousel-button prev">
+                            <i class="fa fa-angle-left"></i>
+                        </button>
+                        <button onclick="plusSlides(1)" aria-label="next" class="carousel-button next">
+                            <i class="fa fa-angle-right"></i>
+                        </button>
+                        <div class="carousel">
+                            <div class="carousel-item">
+                                <img class="img-responsive" src="./images/avatar.png" alt="" />
+                                <div class="carousel_content">
+                                    <div class="name">John Fang1</div>
+                                    <h2 class="link">wordfaang.com</h2>
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                        viverra enim erat tortor ultricies massa turpis. Arcu
+                                        pulvinar aenean nam laoreet nulla.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/avatar.png" alt="" />
+                                <div class="carousel_content">
+                                    <div class="name">John Fang2</div>
+                                    <h2 class="link">wordfaang.com</h2>
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                        viverra enim erat tortor ultricies massa turpis. Arcu
+                                        pulvinar aenean nam laoreet nulla.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/avatar.png" alt="" />
+                                <div class="carousel_content">
+                                    <div class="name">John Fang3</div>
+                                    <h2 class="link">wordfaang.com</h2>
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                        viverra enim erat tortor ultricies massa turpis. Arcu
+                                        pulvinar aenean nam laoreet nulla.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/avatar.png" alt="" />
+                                <div class="carousel_content">
+                                    <div class="name">John Fang4</div>
+                                    <h2 class="link">wordfaang.com</h2>
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                        viverra enim erat tortor ultricies massa turpis. Arcu
+                                        pulvinar aenean nam laoreet nulla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-dot">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer-col1">
+                <div class="logo">
+                    <div>
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.832275" width="19.8758" height="19.8758" rx="9.93789" fill="#9C69E2" />
+                        </svg>
+
+                        <svg style='padding-left: .5rem;' width="21" height="36" viewBox="0 0 21 36" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.820312" y="0.925446" width="19.8758" height="34.7826" rx="9.93789"
+                                fill="#F063B8" />
+                        </svg>
+                    </div>
+                    <span>
+                        DataWarehouse
+                    </span>
+                </div>
+                <div class="address">
+                    Warehouse Society, 234
+                    Bahagia Ave Street PRBW 29281
+                </div>
+                <div class="email">
+                    info@warehouse.project
+                    <br>
+                    1-232-3434 (Main)
+                </div>
+                <div class="nocopyright">
+                    © Datawarehouse™, 2020. All rights reserved.
+                    Company Registration Number: 21479524.
+                </div>
+            </div>
+            <div class="footer-col2">
+                <div class="headingFooter">
+                    About
+                </div>
+                <div class="about-menu">
+                    <div class="about-menu-item">Profile</div>
+                    <div class="about-menu-item">Features</div>
+                    <div class="about-menu-item">Career</div>
+                    <div class="about-menu-item">DW News</div>
+                </div>
+            </div>
+
+            <div class="footer-col3">
+                <div class="headingFooter">
+                    Help
+                </div>
+                <div class="help-menu">
+                    <div class="help-menu-item">Profile</div>
+                    <div class="help-menu-item">Features</div>
+                    <div class="help-menu-item">Career</div>
+                    <div class="help-menu-item">DW News</div>
+                </div>
+            </div>
+
+            <div class="footer-col4">
+                <div class="headingFooter">
+                    Social Media
+                </div>
+                <div class="socal-icon">
+                    <div class="socal-icon-item"></div>
+                    <div class="socal-icon-item"></div>
+                    <div class="socal-icon-item"></div>
+                </div>
+                <div class="icon-chat">
+                    <img src="./images/icon-chat.svg" alt="">
+                </div>
+            </div>
+
+        </footer>
+    </section>
+
+
+    <script src="./js/home.js"></script>
+</body>
+
+</html>

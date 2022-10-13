@@ -1,0 +1,111 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #4B5D68;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../font/Helvetica.ttf);
+}
+
+.btn {
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+    width: 10rem;
+    padding: 1rem 0;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/* SIDEBAR */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+}
+
+.logo {
+    padding: 3rem;
+}
+
+#posts, #log-out {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.table {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #D9D9D9;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+td {
+    background: #D9D9D9;
+    border: 1px solid;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+td button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+/* PAGINATION */
+.pagenumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagenumbers button {
+    width: 2rem;
+    height: 2rem;
+
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: #D9D9D9;
+    margin-top: 1rem;
+    transition: 0.4s;
+
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+    background-color: #4B5D68;
+}
+
+.pagenumbers button.active {
+    background-color: #4B5D68;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* MODAL */

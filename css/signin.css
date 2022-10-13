@@ -1,0 +1,68 @@
+/*===================== GLOBAL =======================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #4B5D68;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    height: 100vh;
+    width: 100vw;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../font/Helvetica.ttf);
+}
+
+
+
+.container {
+    padding: 0 10rem;
+}
+
+.btn {
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+    padding: 1rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+/* LOGO */
+.logo {
+    padding-top: 3rem;
+    position: absolute;
+}
+
+/* LOGIN */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login .heading-login {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.login label {
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.login #username {
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+}
